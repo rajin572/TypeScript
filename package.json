@@ -1,0 +1,27 @@
+{
+  "name": "basic_typescript",
+  "version": "1.0.0",
+  "description": "Hello",
+  "main": "typeOfTS.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only typeOfTS.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajin572/simple-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajin572/simple-TS/issues"
+  },
+  "homepage": "https://github.com/rajin572/simple-TS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
