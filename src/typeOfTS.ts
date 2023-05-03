@@ -1,7 +1,7 @@
 // write code
 const course: string = 'next level web development I am ready'
 const courseUser: string = 'Din Islam rajin yo yo khaba naki '
-console.log(course, courseUser);
+// console.log(course, courseUser);
 
 // Array
 let names: string[] = ['dada', 'nana']
@@ -29,3 +29,28 @@ const users :{
     partner: 'mim'
 }
 // users.student = 5
+
+
+// Function
+function add(num1:number, num2:number):number {
+    return num1 + num2
+}
+
+
+const multiple = (num1:number, num2:number):number => num1*num2
+
+
+const person:
+{
+    name:string;
+    balance: number;
+    addMoney(money:number):void;
+} = {
+    name: 'rajin',
+    balance: 5,
+    addMoney(money){
+        console.log(this.balance + money)
+    }
+}
+
+
