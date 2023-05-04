@@ -11,5 +11,9 @@ const person = {
         console.log(this.balance + money);
     }
 };
+const calculator = (num1, num2, oparation) => {
+    return oparation(num1, num2);
+};
+console.log(calculator(10, 20, (x, y) => x + y));
 // default parameter
 const infinity = (num1, num2 = 20) => num1 + num2;

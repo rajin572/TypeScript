@@ -20,5 +20,16 @@ const person:
     }
 }
 
+//type alias
+
+type oparationType = (x:number,y:number) => number 
+
+const calculator = (num1:number, num2:number, oparation : oparationType) => {
+    return oparation(num1, num2)
+}
+
+console.log(calculator(10, 20, (x,y) => x+y));
+
+
 // default parameter
 const infinity = (num1: number, num2: number = 20):number =>num1+num2
