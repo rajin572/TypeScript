@@ -1,5 +1,4 @@
 <h1>TypeScript</h1>
-<h5>--------------------</h5>
 <br/>
 <br/>
 <br/>
@@ -9,7 +8,7 @@
 
 Installation :
 ------------------
-
+<br/>
 => At first install TypeScript using this command “npm i -g typescript”
 <br/>
 => Now create a file using .ts and write your code and run the code by typing “tsc ./filename”. By using this command it will convert into a JS file
