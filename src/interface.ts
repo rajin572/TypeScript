@@ -15,3 +15,19 @@ const student: IProUser = {
     roll: 5,
     subject: 'accounting'
 }
+
+
+// in function
+interface Iaddnum {
+    (num1: number, num2: number): number
+}
+
+const addnum : Iaddnum = (num1, num2) => num1+num2
+
+// in array
+
+interface Iarray {
+    [index:number]: number
+}
+
+const numArray: Iarray = [1, 2, 5]
