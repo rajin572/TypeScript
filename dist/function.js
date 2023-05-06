@@ -11,11 +11,10 @@ const person = {
         console.log(this.balance + money);
     }
 };
-// //type alias
-// type oparationType = (x:number,y:number) => number 
-// const calculator = (num1:number, num2:number, oparation : oparationType) => {
-//     return oparation(num1, num2)
-// }
-// console.log(calculator(10, 20, (x,y) => x+y));
 // default parameter
 const infinity = (num1, num2 = 20) => num1 + num2;
+const addNumber = (num1, num2) => num1 + num2;
+const myCalculator = (num1, num2, oparation) => {
+    return oparation(num1, num2);
+};
+console.log(myCalculator(10, 20, (x, y) => x + y));
