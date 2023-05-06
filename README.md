@@ -17,7 +17,7 @@
 => Now create a file using. ts and write your code and convert the code into JS file by typing “tsc ./filename”. By using this command it will convert into a JS file
 <br/>
 
-=> Now if I want to run our code using nodemon we can install nodemon on this project. But there will still be a problem. The problem is every time we need to use tsc ./filename to convert the code into JS. 
+=> Now if I want to run our code using nodemon we can install nodemon on this project. To install npm we need to run this command "npm init -y". But there will still be a problem. The problem is every time we need to use tsc ./filename to convert the code into JS. 
 <br/>
 
 => To fix this problem we need to install a TS compiler that's name is “npm i ts-node-dev”. And set this “ts-node-dev --respawn --transpile-only server.ts”in package.json
