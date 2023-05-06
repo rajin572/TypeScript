@@ -34,11 +34,11 @@
 <h3>Types</h3>
 <h6>Primitive type:</h6>
 
-=> String
-=> Number
-=> Boolean 
-=> Undefined 
-=> Null
+=> String <br/>
+=> Number <br/>
+=> Boolean <br/>
+=> Undefined <br/>
+=> Null <br/>
 
 
 
