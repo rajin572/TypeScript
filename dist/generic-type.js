@@ -8,3 +8,8 @@ const userArray = [
     }
 ];
 const TupleArray = ['n', 0];
+const data1 = {
+    name: 'raja r bou',
+    husband: false,
+    child: 4
+};
