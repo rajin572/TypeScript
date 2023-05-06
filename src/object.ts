@@ -17,3 +17,17 @@ const users :{
     partner: 'mim'
 }
 // users.student = 5
+
+
+// Array of object
+
+const usersStudent : Array<{id: number,name:string}> = [
+    {
+    id: 2,
+    name:'rajin'
+    },
+    {
+        id: 3,
+        name: 'jamal'
+    }
+]

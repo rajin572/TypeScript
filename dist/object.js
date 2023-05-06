@@ -10,3 +10,14 @@ const users = {
     partner: 'mim'
 };
 // users.student = 5
+// Array of object
+const usersStudent = [
+    {
+        id: 2,
+        name: 'rajin'
+    },
+    {
+        id: 3,
+        name: 'jamal'
+    }
+];
