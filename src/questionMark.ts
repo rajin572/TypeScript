@@ -6,6 +6,9 @@ const isAdult = age >= 18 ? 'yes' : 'no'
 // console.log(isAdult);
 
 
+// -----------------------------------------------------------------------------------------
+
+
 // Nullish coalesing operator 
 
 const authenticateUser = null;
@@ -13,6 +16,9 @@ const authenticateUser = null;
 const isUser = authenticateUser ?? 'guest'
 const user2 = authenticateUser ? authenticateUser : 'guest'
 console.log(isUser , user2)
+
+
+// -----------------------------------------------------------------------------------------
 
 
 // optinal chaining 

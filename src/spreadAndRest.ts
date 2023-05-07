@@ -4,6 +4,9 @@ const newFriend:string[] = ['arpa', 'noor', 'nipu']
 myFriends.push(...newFriend)
 
 
+// -----------------------------------------------------------------------------------------
+
+
 
 // rest
 const hiFriends = (...friends:string[]):string[] => {

@@ -34,6 +34,8 @@ checkSpeed('20 km/sec')
 checkSpeed(null)
 
 
+// -----------------------------------------------------------------------------------------
+
 // Never Type
 
 const  throwError = (value: string): never => {
