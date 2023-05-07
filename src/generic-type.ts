@@ -91,7 +91,7 @@ interface IMendetory {
     salary: number
 }
 
-const addLove = <T extends IMendetory>(myInfo: T) => {
+const addLove = <T >(myInfo: T) => {
     const crushName = "Priyanka";
     let createLove: object;
     return (createLove = { ...myInfo, crushName })
@@ -116,7 +116,6 @@ const myData1 = addLove(mySelf2)
 ///-------------------------Constraints using key of part--------------------
 
 
-
 interface IPerson10 {
     name: string,
     age: number, 
@@ -127,7 +126,8 @@ type newType = 'name' | 'age' | 'salary' // manualy created
 
 type newTypeKeyOf = keyof IPerson10;
 
-const a: newTypeKeyOf = 'age'
+const a: newTypeKeyOf = 'salary'
+
 
 //Example : 
 
@@ -140,3 +140,6 @@ const person20 = {
     age: 50
 }
 const res = getKey(person20, 'age')
+
+console.log(res);
+
