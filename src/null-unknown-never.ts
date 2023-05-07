@@ -1,9 +1,9 @@
 // Nullable Type
-const check = (value:string | null) => {
-    if(value === null) {
+const check = (value: string | null) => {
+    if (value === null) {
         console.log('data cannot found');
     }
-    else{
+    else {
         console.log(value);
     }
 }
@@ -15,7 +15,7 @@ const check = (value:string | null) => {
 
 // unknown Type
 const checkSpeed = (value: unknown) => {
-    if(typeof value === 'number') {
+    if (typeof value === 'number') {
         const metterPerSec = (value * 1000) / 3600
         console.log(`Your Speed In Metter Per Sec is ${metterPerSec}`);
     }
@@ -24,7 +24,7 @@ const checkSpeed = (value: unknown) => {
         const metterPerSec = (parseFloat(speed) * 1000) / 3600
         console.log(`Your Speed In Metter Per Sec is ${metterPerSec}`);
     }
-    else{
+    else {
         console.log('Data is not defind')
     }
 }
@@ -38,8 +38,8 @@ checkSpeed(null)
 
 // Never Type
 
-const  throwError = (value: string): never => {
-    throw new Error (value)
+const throwError = (value: string): never => {
+    throw new Error(value)
 }
 
 throwError('type  error')
