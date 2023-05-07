@@ -111,7 +111,30 @@ const mySelf2: IMySelf = {
 
 const myData1 = addLove(mySelf2)
 
-console.log(myData1);
+
+
+///-------------------------Constraints using key of part--------------------
 
 
 
+interface IPerson10 {
+    name: string,
+    age: number, 
+    salary: number
+}  
+
+type newType = 'name' | 'age' | 'salary' // manualy created
+
+type newTypeKeyOf = keyof IPerson10;
+
+const a: newTypeKeyOf = 'age'
+
+//Example : 
+
+const getKey = <X, Y extends keyof X>(obj: X, key: Y) => {return obj[key]}
+
+const person20 = {
+    name: 'rajin',
+    age: 50
+}
+const res = getKey(person20, 'age')
