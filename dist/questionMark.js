@@ -4,6 +4,7 @@ var _a, _b;
 const age = 2;
 const isAdult = age >= 18 ? 'yes' : 'no';
 // console.log(isAdult);
+// -----------------------------------------------------------------------------------------
 // Nullish coalesing operator 
 const authenticateUser = null;
 const isUser = authenticateUser !== null && authenticateUser !== void 0 ? authenticateUser : 'guest';

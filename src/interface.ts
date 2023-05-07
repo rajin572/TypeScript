@@ -17,7 +17,7 @@ interface IUser{
     roll: number
 }
 
-interface IProUser extends IUser{
+interface IProUser extends IUser{   
     subject: string
 }
 

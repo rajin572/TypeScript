@@ -28,6 +28,7 @@ const checkSpeed = (value) => {
 checkSpeed(10);
 checkSpeed('20 km/sec');
 checkSpeed(null);
+// -----------------------------------------------------------------------------------------
 // Never Type
 const throwError = (value) => {
     throw new Error(value);

@@ -3,6 +3,8 @@
 
 Generic: TypeScript Generics is a tool which provides a way to create reusable components. It creates a component that can work with a variety of data types rather than a single data type. It allows users to consume these components and use their own types. 
 
+Constraints: A type constraint on a generic type parameter indicates a requirement that a type must fulfill in order to be accepted as a type argument for that type parameter. For each generic type variable that you'd like to constrain, you would append the extends SomeTypeName to the definition. (For example, it might have to be a given class type or a subtype of that class type, or it might have to implement a given interface.) 
+
 __________________________________________________________________________________________________________
 */
 
@@ -81,19 +83,35 @@ const add3 = addToArray<IName<boolean, string>>({
 })
 
 
-//another example
-const addLove = <T> (myInfo: T) => {
+//--------------------Constraints in Generic---------------------
+
+interface IMendetory {
+    name: string,
+    age: number,
+    salary: number
+}
+
+const addLove = <T extends IMendetory> (myInfo: T) => {
     const crushName = "Priyanka";
     let createLove:object;
     return (createLove = {...myInfo, crushName})
 }
 
-const mySelf2 = {
-    name:'My Self Alan Shopon',
-    age: 20,
-    salary: 2000000
+interface IMySelf extends IMendetory {
+    pets?: Array<string>
 }
 
-const myData1 = addLove<object>(mySelf2)
+const mySelf2: IMySelf = {
+    name:'My Self Alan Shopon',
+    age: 20,
+    salary: 2000000,
+    pets: ['Zoco']
+
+}
+
+const myData1 = addLove(mySelf2)
+
+console.log(myData1);
+
 
 
