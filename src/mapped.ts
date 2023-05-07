@@ -4,6 +4,6 @@ type area = {
 }
 
 type areaString = {
-    [key in keyof area] : string
+    [key in keyof area] : area[key]
 }
 
