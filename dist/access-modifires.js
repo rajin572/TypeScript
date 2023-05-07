@@ -9,10 +9,21 @@ class Bank {
         this._blance = _blance;
         this._bank = _bank;
     }
+    // getBalance (): number {
+    //     return this._blance
+    // }
+    get balance() {
+        return this._blance;
+    }
     getDeposti(money) {
         const newBlance = this._blance + money;
         console.log(`My new blance is ${newBlance}`);
     }
+    set deposit(money) {
+        this._blance = this._blance + money;
+    }
 }
-const bankuser = new Bank('fuchka wala', 5555, 5000, 'sonali Bank');
+const bankuser = new Bank('fuchka wala', 5555, 500, 'sonali Bank');
 bankuser.getDeposti(80);
+bankuser.deposit = 50000;
+console.log(bankuser.balance);

@@ -7,12 +7,29 @@ class Bank {
     constructor(public name: string, public id: number, protected _blance: number, private _bank: 'sonali Bank'){
 
     }
+
+    // getBalance (): number {
+    //     return this._blance
+    // }
+
+    get balance(): number {  //Getter
+        return this._blance
+    }
+    
     getDeposti(money:number){
         const newBlance:number = this._blance + money 
         console.log(`My new blance is ${newBlance}`);
     }
+
+    set deposit(money:number){
+        this._blance = this._blance + money
+    }
 }
 
 
-const bankuser = new Bank('fuchka wala', 5555, 5000, 'sonali Bank')
+const bankuser = new Bank('fuchka wala', 5555, 500, 'sonali Bank')
 bankuser.getDeposti(80)
+
+bankuser.deposit = 50000
+
+console.log(bankuser.balance);
