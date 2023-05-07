@@ -46,4 +46,13 @@ const mySelf2 = {
     pets: ['Zoco']
 };
 const myData1 = addLove(mySelf2);
-console.log(myData1);
+const a = 'age';
+//Example : 
+const getKey = (obj, key) => {
+    return obj[key];
+};
+const person20 = {
+    name: 'rajin',
+    age: 50
+};
+const res = getKey(person20, 'age');

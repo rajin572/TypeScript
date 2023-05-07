@@ -17,7 +17,7 @@ const string: GenericString<string> = 'kuddus'
 
 
 //_______________using Array______________
-type GenericArray<T> = Array<T>
+type GenericArray <T> = Array<T>
 
 
 const newArray: GenericArray<string> = ['b', 'c', 'd']
@@ -131,7 +131,9 @@ const a: newTypeKeyOf = 'age'
 
 //Example : 
 
-const getKey = <X, Y extends keyof X>(obj: X, key: Y) => {return obj[key]}
+const getKey = <X, Y extends keyof X>(obj: X, key: Y) => {
+    return obj[key]
+}
 
 const person20 = {
     name: 'rajin',
