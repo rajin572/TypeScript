@@ -34,14 +34,14 @@ TypeScript being a "Syntactic Superset" means that it shares the same base synta
 <br/>
 <br/>
 
-<h3>Types</h3>
+<!-- <h3>Types</h3>
 <h6>Primitive type:</h6>
 
 => String <br/>
 => Number <br/>
 => Boolean <br/>
 => Undefined <br/>
-=> Null <br/>
+=> Null <br/> -->
 
 
 
