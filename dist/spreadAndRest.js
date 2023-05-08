@@ -6,6 +6,10 @@ myFriends.push(...newFriend);
 // -----------------------------------------------------------------------------------------
 // rest
 const hiFriends = (...friends) => {
-    return friends;
+    return friends.reverse();
 };
-console.log(myFriends);
+const ami = 'fff';
+const tmi = 'kff';
+const jmi = 'kkf';
+const lmi = 'kkk';
+console.log(hiFriends(ami, tmi, lmi, jmi));

@@ -10,7 +10,13 @@ myFriends.push(...newFriend)
 
 // rest
 const hiFriends = (...friends:string[]):string[] => {
-    return friends
+    return friends.reverse()
 }
 
-console.log(myFriends);
+
+const ami: string = 'fff'
+const tmi: string = 'kff'
+const jmi: string = 'kkf'
+const lmi: string = 'kkk'
+
+console.log(hiFriends(ami, tmi, lmi, jmi));

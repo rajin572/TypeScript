@@ -46,7 +46,7 @@ const mySelf2 = {
     pets: ['Zoco']
 };
 const myData1 = addLove(mySelf2);
-const a = 'age';
+const a = 'salary';
 //Example : 
 const getKey = (obj, key) => {
     return obj[key];
@@ -56,3 +56,4 @@ const person20 = {
     age: 50
 };
 const res = getKey(person20, 'age');
+console.log(res);
