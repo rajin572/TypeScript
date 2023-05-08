@@ -6,6 +6,9 @@
 
  -->
 <h1>Interview Questions</h1>
+<br/>
+<br/>
+<br/>
 
 <!-- Question 1 -->
 
@@ -25,7 +28,6 @@ TypeScript is a superset of JavaScript that adds optional static type checking a
 
 <br/>
 <br/>
-<br/>
 
 
 <!-- Question 2 -->
@@ -40,7 +42,6 @@ TypeScript is a superset of JavaScript that adds optional static type checking a
 </p>
 </h3>
 
-<br/>
 <br/>
 <br/>
 
@@ -58,7 +59,6 @@ TypeScript is a superset of JavaScript that adds optional static type checking a
 
 <br/>
 <br/>
-<br/>
 
 <!-- Question 4  -->
 <h3>
@@ -70,7 +70,6 @@ TypeScript is a superset of JavaScript that adds optional static type checking a
 </p>
 </h3>
 
-<br/>
 <br/>
 <br/>
 
@@ -87,6 +86,3 @@ The in type guard checks if an object has a particular property, using that to d
 </p>
 </h3>
 
-<br/>
-<br/>
-<br/>
