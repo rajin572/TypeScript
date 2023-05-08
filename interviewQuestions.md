@@ -8,7 +8,7 @@
 <h1>Interview Questions</h1>
 
 
-<h4>
+<h2>
 <p>
 <b>Question 1:</b> What is TypeScript, and how is it different from JavaScript?
 </p>
@@ -20,4 +20,4 @@ TypeScript is a superset of JavaScript that adds optional static type checking a
 => TypeScript has a feature known as Static typing but JavaScript does not support this feature. <br/>
 => TypeScript supports Interfaces but JavaScript does not. <br/>
 </p>
-</h4>
+</h2>
