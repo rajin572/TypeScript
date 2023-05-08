@@ -16,8 +16,8 @@
 <b>Ans:</b>
 TypeScript is a superset of JavaScript that adds optional static type checking and other advanced features to the language. It was created and is maintained by Microsoft.
 <br/>
-=> TypeScript is known as an Object-oriented programming language whereas JavaScript is a prototype-based language.
-=> TypeScript has a feature known as Static typing but JavaScript does not support this feature.
-=> TypeScript supports Interfaces but JavaScript does not.
+=> TypeScript is known as an Object-oriented programming language whereas JavaScript is a prototype-based language. <br/>
+=> TypeScript has a feature known as Static typing but JavaScript does not support this feature. <br/>
+=> TypeScript supports Interfaces but JavaScript does not. <br/>
 </p>
 </h4>
