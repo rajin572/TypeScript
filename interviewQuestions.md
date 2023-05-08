@@ -10,11 +10,10 @@
 
 <h4>
 <p>
-<b>Question 1:</b> <br/> What is TypeScript, and how is it different from JavaScript?
+<b>Question 1:</b> What is TypeScript, and how is it different from JavaScript?
 </p>
 <p>
 <b>Ans:</b>
-<br/>
 TypeScript is a superset of JavaScript that adds optional static type checking and other advanced features to the language. It was created and is maintained by Microsoft.
 <br/>
 => TypeScript is known as an Object-oriented programming language whereas JavaScript is a prototype-based language.
