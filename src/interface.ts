@@ -12,12 +12,12 @@ ________________________________________________________________________________
 
 
 
-interface IUser{
+interface IUser {
     name: string,
     roll: number
 }
 
-interface IProUser extends IUser{   
+interface IProUser extends IUser {
     subject: string
 }
 
@@ -33,12 +33,12 @@ interface Iaddnum {
     (num1: number, num2: number): number
 }
 
-const addnum : Iaddnum = (num1, num2) => num1+num2
+const addnum: Iaddnum = (num1, num2) => num1 + num2
 
 // in array
 
 interface Iarray {
-    [index:number]: number
+    [index: number]: number
 }
 
 const numArray: Iarray = [1, 2, 5]
