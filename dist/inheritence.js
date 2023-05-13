@@ -25,5 +25,6 @@ class Teacher extends Person {
 }
 const student1 = new Student('akaimma', 25, 'bodna bajar');
 student1.makeSleep(8);
+student1.makeSleep(80);
 const teacher1 = new Teacher('nut boltu', 50, 'rastay thaki beton kom', true);
 teacher1.totalHoursOfClass(2);
