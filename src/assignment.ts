@@ -1,3 +1,5 @@
+
+import {logIfString as logString } from './function'
 // // Problem 1
 
 // function repeatString(str: string, num: number = 3): void {
@@ -76,15 +78,15 @@
 // // console.log(student.getGrade()); // Output: "Grade: A"
 
 
-// //Problem 5
+//Problem 5
 
-// function logIfString(param: unknown): void {
-//     if (typeof param === "string") {
-//       console.log(param);
-//     } else {
-//       console.error("Parameter is not a string.");
-//     }
-//   }
+function logIfString(param: unknown): void {
+    if (typeof param === "string") {
+      console.log(param);
+    } else {
+      console.error("Parameter is not a string.");
+    }
+  }
 
-// logIfString("hello"); // logs "hello"
-// logIfString(42); // logs "Parameter is not a string."
+// logString("hello"); // logs "hello"
+// logString(42); // logs "Parameter is not a string."

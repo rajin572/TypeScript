@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // // Problem 1
 // function repeatString(str: string, num: number = 3): void {
 //     for (let i = 0; i < num; i++) {
@@ -52,13 +53,14 @@
 // // const student = new Student("Bob", 18, "A");
 // // console.log(student.getDetails()); // Output: "Name: Bob, Age: 18"
 // // console.log(student.getGrade()); // Output: "Grade: A"
-// //Problem 5
-// function logIfString(param: unknown): void {
-//     if (typeof param === "string") {
-//       console.log(param);
-//     } else {
-//       console.error("Parameter is not a string.");
-//     }
-//   }
-// logIfString("hello"); // logs "hello"
-// logIfString(42); // logs "Parameter is not a string."
+//Problem 5
+function logIfString(param) {
+    if (typeof param === "string") {
+        console.log(param);
+    }
+    else {
+        console.error("Parameter is not a string.");
+    }
+}
+// logString("hello"); // logs "hello"
+// logString(42); // logs "Parameter is not a string."

@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.logIfString = void 0;
 // Function
 function add(num1, num2) {
     return num1 + num2;
@@ -18,3 +20,13 @@ const myCalculator = (num1, num2, oparation) => {
     return oparation(num1, num2);
 };
 console.log(myCalculator(10, 20, (x, y) => x + y));
+//Problem 5
+function logIfString(param) {
+    if (typeof param === "string") {
+        console.log(param);
+    }
+    else {
+        console.error("Parameter is not a string.");
+    }
+}
+exports.logIfString = logIfString;

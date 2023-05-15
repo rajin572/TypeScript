@@ -42,3 +42,14 @@ const myCalculator = (num1:number, num2:number, oparation : myoparationType) => 
 console.log(myCalculator(10, 20, (x,y) => x+y));
 
 
+//Problem 5
+
+export function logIfString(param: unknown): void {
+    if (typeof param === "string") {
+      console.log(param);
+    } else {
+      console.error("Parameter is not a string.");
+    }
+  }
+
+
