@@ -8,6 +8,9 @@ Tuple: TypeScript tuples are like arrays with a fixed number of elements. They p
 _____________________________________________________________________________________________________________
 */
 //____________________Array___________________
-let names = ['dada', 'nana'];
+let names = ["dada", "nana"];
+let roll = [10, 20];
+let checking = [true, false];
 //___________________Touple___________________
-let data = [1, 'sampoo'];
+let data = [1, "sampoo"];
+let data2 = [10, "Hero", false];

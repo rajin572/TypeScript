@@ -8,31 +8,31 @@ Constraints: A type constraint on a generic type parameter indicates a requireme
 
 __________________________________________________________________________________________________________
 */
-const string = 'kuddus';
-const newArray = ['b', 'c', 'd'];
+const string = "kuddus";
+const newArray = ["b", "c", "d"];
 const userArray = [
     {
-        name: 'rajin',
-        id: 5
-    }
+        name: "rajin",
+        id: 5,
+    },
 ];
-const TupleArray = ['n', 0];
+const TupleArray = ["n", 0];
 const data1 = {
-    name: 'raja r bou',
+    name: "raja r bou",
     husband: false,
-    child: 4
+    //   child: 4,
 };
 //_____________Using Function_______________
 const addToArray = (params) => {
     return [params];
 };
-const add1 = addToArray('dada');
+const add1 = addToArray("dada");
 const add2 = addToArray(true);
 const add3 = addToArray({
-    name: 'rajin',
+    name: "rajin",
     age: 22,
     wife: true,
-    wifeName: 'Mithila'
+    wifeName: "Mithila",
 });
 const addLove = (myInfo) => {
     const crushName = "Priyanka";
@@ -40,20 +40,28 @@ const addLove = (myInfo) => {
     return (createLove = Object.assign(Object.assign({}, myInfo), { crushName }));
 };
 const mySelf2 = {
-    name: 'My Self Alan Shopon',
+    name: "My Self Alan Shopon",
     age: 20,
     salary: 2000000,
-    pets: ['Zoco']
+    pets: ["Zoco"],
 };
 const myData1 = addLove(mySelf2);
-const a = 'salary';
-//Example : 
+///-------------------------Constraints using key of part--------------------
+// interface IPerson10 {
+//   name: string;
+//   age: number;
+//   salary: number;
+// }
+// type newType = "name" | "age" | "salary"; // manualy created
+// type newTypeKeyOf = keyof IPerson10;
+// const a: newTypeKeyOf = "salary";
+//Example :
 const getKey = (obj, key) => {
     return obj[key];
 };
 const person20 = {
-    name: 'rajin',
-    age: 50
+    name: "rajin",
+    age: 50,
 };
-const res = getKey(person20, 'age');
+const res = getKey(person20, "age");
 console.log(res);
