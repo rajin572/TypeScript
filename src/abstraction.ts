@@ -1,48 +1,50 @@
-// using interface 
+{
+  // using interface
 
-interface IVehicle {
-    startCar():void
-    stopCar():void
-    moveCar():void
-}
+  interface IVehicle {
+    startCar(): void;
+    stopCar(): void;
+    moveCar(): void;
+  }
 
-class Vehicle implements IVehicle{
+  class Vehicle implements IVehicle {
     startCar(): void {
-        console.log('started car')
+      console.log("started car");
     }
     stopCar(): void {
-        console.log('car stoped')
+      console.log("car stoped");
     }
     moveCar(): void {
-        console.log('moved car')
+      console.log("moved car");
     }
-}
+  }
 
-// const vehicle1 = new Vehicle()
-// vehicle1.startCar()
-// vehicle1.moveCar()
-// vehicle1.stopCar()
+  // const vehicle1 = new Vehicle()
+  // vehicle1.startCar()
+  // vehicle1.moveCar()
+  // vehicle1.stopCar()
 
-//using abstraction
+  //using abstraction
 
-abstract class Vehicle1 {
-    abstract startCar():void
-    abstract stopCar():void
-    abstract moveCar():void
-}
+  abstract class Vehicle1 {
+    abstract startCar(): void;
+    abstract stopCar(): void;
+    abstract moveCar(): void;
+  }
 
-class Car1 extends Vehicle1 {
+  class Car1 extends Vehicle1 {
     startCar(): void {
-        console.log('started car');
+      console.log("started car");
     }
     stopCar(): void {
-        console.log('stoped car')
+      console.log("stoped car");
     }
     moveCar(): void {
-        console.log('moved car')
+      console.log("moved car");
     }
+  }
+
+  const newcar = new Car1();
+
+  newcar.moveCar();
 }
-
-const newcar = new Car1 ()
-
-newcar.moveCar()

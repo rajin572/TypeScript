@@ -1,33 +1,34 @@
 "use strict";
-// using interface 
-class Vehicle {
-    startCar() {
-        console.log('started car');
+{
+    class Vehicle {
+        startCar() {
+            console.log("started car");
+        }
+        stopCar() {
+            console.log("car stoped");
+        }
+        moveCar() {
+            console.log("moved car");
+        }
     }
-    stopCar() {
-        console.log('car stoped');
+    // const vehicle1 = new Vehicle()
+    // vehicle1.startCar()
+    // vehicle1.moveCar()
+    // vehicle1.stopCar()
+    //using abstraction
+    class Vehicle1 {
     }
-    moveCar() {
-        console.log('moved car');
+    class Car1 extends Vehicle1 {
+        startCar() {
+            console.log("started car");
+        }
+        stopCar() {
+            console.log("stoped car");
+        }
+        moveCar() {
+            console.log("moved car");
+        }
     }
+    const newcar = new Car1();
+    newcar.moveCar();
 }
-// const vehicle1 = new Vehicle()
-// vehicle1.startCar()
-// vehicle1.moveCar()
-// vehicle1.stopCar()
-//using abstraction
-class Vehicle1 {
-}
-class Car1 extends Vehicle1 {
-    startCar() {
-        console.log('started car');
-    }
-    stopCar() {
-        console.log('stoped car');
-    }
-    moveCar() {
-        console.log('moved car');
-    }
-}
-const newcar = new Car1();
-newcar.moveCar();
