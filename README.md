@@ -1,6 +1,17 @@
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a><h1> TypeScript</h1>
 
-[Copy Text](#const user = {
+<h3>
+<p>
+<b>Question 2:</b> What is the purpose of the optional chaining (?.) and nullish coalescing (??) operators in TypeScript, and how do they work? Provide an example for each
+</p>
+<p>
+<b>Ans :</b> Optional Chaining allows for concise handling of potentially null or undefined values, while nullish coalescing allows for a default value to be assigned in the case of null or undefined.
+<br/>
+<br/>
+<b>Optional chaining:</b>It allows you to write code that will immediately stop running expressions if it hits a null or undefined.
+
+<br/>
+const user = {
 name: "John",
 address: {
 city: "New York",
@@ -8,8 +19,19 @@ city: "New York",
 };
 
 const street = user.address?.street;
+<br/>
+<br/>
+<b>Nullish Coalescing:</b>It uses a unique operator: ??, which serves as the default or "fall back" value when an expression evaluates to null or undefined.
+<br/>
+const defaultValue = "Unknown";
+const userInput = null;
+const result = userInput ?? defaultValue;
 
-console.log(street); // Output: undefined (no error))
+<br/>
+<br/>
+
+</p>
+</h3>
 
 TypeScript is a syntactic superset of JavaScript which adds static typing. This basically means that TypeScript adds syntax on top of JavaScript, allowing developers to add types.
 <br/>
