@@ -1,5 +1,17 @@
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a><h1> TypeScript</h1>
 
+[const user = {
+name: "John",
+address: {
+city: "New York",
+},
+};
+
+const street = user.address?.street;
+
+console.log(street); // Output: undefined (no error)
+](javascript:void(0);"Copy this text to the clipboard")
+
 TypeScript is a syntactic superset of JavaScript which adds static typing. This basically means that TypeScript adds syntax on top of JavaScript, allowing developers to add types.
 <br/>
 TypeScript being a "Syntactic Superset" means that it shares the same base syntax as JavaScript, but adds something to it.
