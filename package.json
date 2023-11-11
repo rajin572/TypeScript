@@ -4,7 +4,7 @@
   "description": "Hello",
   "main": "typeOfTS.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only ./src/17_constraint-using-key_of.ts",
+    "start": "ts-node-dev --respawn --transpile-only ./src/23_Inheritance.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

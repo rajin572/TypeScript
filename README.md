@@ -8,7 +8,7 @@
 <b>Ans :</b> Optional Chaining allows for concise handling of potentially null or undefined values, while nullish coalescing allows for a default value to be assigned in the case of null or undefined.
 <br/>
 <br/>
-<b>Optional chaining:</b>It allows you to write code that will immediately stop running expressions if it hits a null or undefined.
+<b>Optional chaining:</b> It allows you to write code that will immediately stop running expressions if it hits a null or undefined.
 
 <br/>
 const user = {

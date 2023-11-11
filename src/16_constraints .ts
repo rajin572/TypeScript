@@ -1,11 +1,13 @@
 {
   // constraints
 
-  const addCourseToStudent = <
-    T extends { id: number; name: string; email: string }
-  >(
-    student: T
-  ) => {
+  interface IUser {
+    id: number;
+    name: string;
+    email: string;
+  }
+
+  const addCourseToStudent = <T extends IUser>(student: T) => {
     const course = "Next Level Web Development";
     return {
       ...student,
